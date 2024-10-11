@@ -39,4 +39,7 @@
   
 
  ## Запуск докера
- 1) Клонирование репозитория
+ '''
+ docker build -t mtech https://github.com/arturabgaryan/M.tech.git
+ docker run -p 8501:8501 mtech
+ '''
