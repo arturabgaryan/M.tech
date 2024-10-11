@@ -1,0 +1,8 @@
+version: "3"
+services:
+  mtech-uplink:
+    tty: true
+    container_name: mtech-uplink
+    image: mtech-uplink
+    build: 
+      context: . 
